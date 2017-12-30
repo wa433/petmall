@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/productDetail.css">
+	<style type="text/css">
+		.fang{position:relative}
+		.coverDiv{width:420px;height:420px;position:absolute;left:13px;top:0;
+		cursor:move;
+		}
+		#drag{width:100px;height:100px;background:blue;opacity:.2       ;position:absolute;left:13px;top:0;display:none;}
+		#big-show{width:350px;height:350px;position:absolute;left:480px;top:25px;z-index:15;overflow:hidden;display:none}
+		#big-show img{position:absolute;left:0;top:0;}
+	</style>
+ </head>
+ <body>
+   <div class="main">
+	    <div id="header"></div>
+<!--main body     -->
+      <div class="col-md-12 imgs">
+			  <div class="col-md-5 ">
+				   <p class="big-img fang"></p>
+					 <div id="drag"></div>
+					 <div class="coverDiv"></div>  
+						<div id="big-show">
+						  
+						</div>
+					 <p class="small-img">
+					    <img src="images/woju/product1.jpg" alt="" />
+					    <img src="images/woju/product2.jpg" alt="" />
+					    <img src="images/woju/product3.jpg" alt="" />
+					    <img src="images/woju/product4.jpg" alt="" />
+					 </p>
+       <hr />
+					 <p class="share">
+					   <a href="#">分享</a>
+						 <a href="" class="shoucang">收藏商品</a><span>(31889人气)</span>
+						 <a href="#" class="jubao">举报</a>
+					 </p>
+				</div>
+				<div class="col-md-7">
+				   <h1 class="d-title">
+            <span style="color:red">送凉席 可拆卸 两用窝</span>
+					 </h1>
+					 <div class="price">
+					   <h3 style="color:white">周年大促销,优惠满减!!!</h3>
+					 </div>
+					 <div class="pro_price">
+					   <h4 class="pro">价格:<span id="price"></span></h4>
+						 <h4 class="pro">服务承诺：*30天无忧退货 *48小时快速退款</h4>
+					 </div>
+					 <h4 class="pro">客服: <a href="">联系客服<span
+					 class="glyphicon glyphicon-phone" style="margin-left:12px;"></span></a></h4>
+					 <div class="spec">
+					   <h4 class="pro">适用尺码:</h4>
+						 <ul>
+						   <li><a href="" class="selected">S：长30cm适合5斤内【送凉席】</a></li>
+						   <li><a href="">M：长30cm适合5斤内【送凉席】</a></li>
+						   <li><a href="">L：长30cm适合5斤内【送凉席】</a></li>
+						 </ul>
+						 <h4 class="pro pro1">数量:
+						 <button class="btn1" id="jian">－</button>
+						 <span class="count">0</span>
+						 <button class="btn1" id="jia">＋</button></h4>
+					 </div>
+            <div class="buy">
+						   <a href="" class="buy_btn">确认购买</a>
+							 <a href="" class="buy_btn add"><span class="glyphicon glyphicon-shopping-cart"></span>
+							  加入购物车</a>
+  					</div>
+				</div>
+			</div>
+<!--main body   end  -->
+      <div class="col-md-12">
+			 <hr />
+			   <div class="introduce">
+				  <div style="margin-top:15px;">
+					 <h3>【名称】：小清新!“波点”摇粒绒宠物毛毯</h3>
+           <h3>【货号】：12E0002G</h3>
+           <h3>【材质】：摇粒绒</h3>
+           <h3>【规格】：每床毯子都是手工裁剪，尺寸误差在±5cm，亲，不影响使用      的哦~</h3>
+            <h3>【规格】：M：76*52cm净重：115克      RMB  18.50</h3>
+             <h3>【规格】：   L：104*76cm        净重：210克      RMB  26.80</h3>
+           <h3>【图片与描述】：</h3>
+					</div>
+					 <img src="images/introduce2.gif" alt="" />
+					 <img src="images/introduce1.jpg" alt="" />
+					 <img src="images/introduce3.jpg" alt="" />
+				 </div>
+			</div>
+	    <div id="footer"></div>
+	 </div>
+
+
+ </body>
+ <script src="js/jquery-1.11.3.js"></script>
+ <script src="js/bootstrap.js"></script>
+ <script src="js/productDetail.js"></script>
+</html>

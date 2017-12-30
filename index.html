@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PET商城</title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        div{
+            /*border:1px solid black;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!--header start -->
+            <div class="col-md-12">
+                <div class="col-md-12 header">
+                <div class="col-md-3" >
+                    <a href="#"><img class="logo" style="width:100%;margin-top:15px;opacity:1" src="images/logo.jpg" alt=""></a>
+                </div>
+                <div class="col-md-6">
+                    <div class="sousuo">
+                        <input type="text" class="sousuok" ><button id="search">搜索</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <ul class="denglu">
+                        <li><a href=""><img title="我的收藏" src="images/care.png" alt=""></a></li>
+                        <li><a href=""><img title="用户中心" src="images/order.png" alt=""></a></li>
+                        <li><a href=""><img title="购物车" src="images/shop_car.png" alt=""></a></li>
+                        <li><a href="register.html">注册</a></li>
+                        <li><a href="login.html">登录</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                    <ul class="daohang">
+                        <li><a class="active" href="">首页</a></li>
+                        <li><a href="products.html?kw=woju">宠物窝具</a></li>
+                        <li><a href="products.html?kw=cloth">宠物服装</a></li>
+                        <li><a href="products.html?kw=clean">美容清洁</a></li>
+                        <li><a href="products.html?kw=food">美味零食</a></li>
+                        <li><a href="products.html?kw=toy">宠物玩具</a></li>
+                    </ul>
+            </div>
+        <!--header end -->
+        <!--carousel begin-->
+            <div class="col-md-12">
+                <div id="ad" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="productDetail.html?wid=1"><img style="width:100%" src="images/ca2.jpg" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img style="width:100%" src="images/ca1.jpg" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img style="width:100%" src="images/ca3.jpg" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img style="width:100%" src="images/ca4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#ad" data-slide-to="0"></li>
+                        <li data-target="#ad" data-slide-to="1"></li>
+                        <li data-target="#ad" data-slide-to="2"></li>
+                        <li data-target="#ad" data-slide-to="3"></li>
+                    </ol>
+                </div>
+            </div>
+        <!--carousel end-->
+          <div class="col-md-12">
+                <a href=""><img style="width:100%" src="images/youhuiquan.jpg" alt=""></a>
+          </div>
+          <div class="col-md-12">
+                  <div class="rel home">
+                      <a href=""><img  src="images/home.png" alt=""/></a>
+                  </div>
+          </div>
+          <div class="col-md-12">
+                <div class="rel hat">
+                    <a href=""><img src="images/hat.jpg" alt=""/></a>
+                </div>
+          </div>
+         <div class="col-md-12">
+            <div class="rel cloth">
+                <a href=""><img src="images/cloth.jpg" alt=""/></a>
+            </div>
+          </div>
+          <!--chongwu woju nav-->
+          <div class="col-md-12 woju">
+              <div class="col-md-7 ">
+                  <span class="glyphicon glyphicon-home"></span>
+                  <h1 style="font-size:50px;font-weight:bold">RECOMMEND</h1>
+                  <h3>宠物窝具</h3>
+              </div>
+              <div class="col-md-5">
+                  <div class="woju-btn">
+                      <p>
+                      <a href="">小型犬窝</a>
+                      <a href="">大型犬窝</a></p>
+                      <p>
+                      <a href="">猫窝</a>
+                      <a href="">豪华窝</a></p>
+                  </div>
+              </div>
+              <div class="col-md-12 bor"></div>
+          </div>
+          <!--chongwu woju products-->
+          <div class="col-md-12 woju-pro">
+              <div class="col-md-3 bg bg1">
+                  <a href=""><img src="images/woju-pro1-1.png" alt=""></a>
+              </div>
+              <div class="col-md-3 bg bg2">
+                  <a href=""><img src="images/woju-pro2-1.png" alt=""></a>
+              </div>
+              <div class="col-md-3 bg bg3">
+                  <a href=""><img src="images/woju-pro3-1.png" alt=""></a>
+              </div>
+              <div class="col-md-3 bg bg4">
+                  <a href=""><img src="images/woju-pro4-1.png" alt=""></a>
+              </div>
+          </div>
+          <div class="col-md-12 woju-pro">
+            <div class="col-md-3 bg bg1">
+                <a href=""><img src="images/woju-pro1-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg bg2">
+                <a href=""><img src="images/woju-pro2-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg bg3">
+                <a href=""><img src="images/woju-pro3-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg bg4">
+                <a href=""><img src="images/woju-pro4-1.png" alt=""></a>
+            </div>
+         </div>
+        <!--colth nav-->
+        <div class="col-md-12 woju">
+            <div class="col-md-7 ">
+                <span class="glyphicon glyphicon-hdd"></span>
+                <h1 style="font-size:50px;font-weight:bold">RECOMMEND</h1>
+                <h3>宠物服饰</h3>
+            </div>
+            <div class="col-md-5">
+                <div class="woju-btn">
+                    <p>
+                        <a href="">小型犬穿</a>
+                        <a href="">中大型犬</a></p>
+                    <p>
+                        <a href="">猫咪穿</a>
+                        <a href="">新款</a></p>
+                </div>
+            </div>
+            <div class="col-md-12 bor"></div>
+        </div>
+        <!--chongwu colth products-->
+       <div class="col-md-12 woju-pro">
+            <div class="col-md-3 bg cth1">
+                <a href=""><img src="images/colth1-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cth2">
+                <a href=""><img src="images/colth2-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cth3">
+                <a href=""><img src="images/colth3-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cth4">
+                <a href=""><img src="images/colth4-1.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-12 woju-pro">
+            <div class="col-md-3 bg cth1">
+                <a href=""><img src="images/colth1-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cth2">
+                <a href=""><img src="images/colth2-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cth3">
+                <a href=""><img src="images/colth3-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cth4">
+                <a href=""><img src="images/colth4-1.png" alt=""></a>
+            </div>
+        </div>
+        <!--cleaning nav-->
+        <div class="col-md-12 woju">
+            <div class="col-md-7 ">
+                <span class="glyphicon glyphicon-calendar"></span>
+                <h1 style="font-size:50px;font-weight:bold">RECOMMEND</h1>
+                <h3>美容清洁</h3>
+            </div>
+            <div class="col-md-5">
+                <div class="woju-btn">
+                    <p>
+                        <a href="">洗澡用品</a>
+                        <a href="">美容用品</a></p>
+                    <p>
+                        <a href="">如厕用品</a>
+                        <a href="">其他物品</a></p>
+                </div>
+            </div>
+            <div class="col-md-12 bor"></div>
+        </div>
+        <!--cleaning prodoucts-->
+        <div class="col-md-12 woju-pro">
+            <div class="col-md-3 bg cle1">
+                <a href=""><img src="images/clean1-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cle2">
+                <a href=""><img src="images/clean2-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cle3">
+                <a href=""><img src="images/clean3-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg cle4">
+                <a href=""><img src="images/clean4-1.png" alt=""></a>
+            </div>
+        </div>
+        <!--chongwu food nav-->
+        <div class="col-md-12 woju">
+            <div class="col-md-7 ">
+                <span class="glyphicon glyphicon-baby-formula"></span>
+                <h1 style="font-size:50px;font-weight:bold">RECOMMEND</h1>
+                <h3>美味零食</h3>
+            </div>
+            <div class="col-md-5">
+                <div class="woju-btn">
+                    <p>
+                        <a href="">磨牙咬胶</a>
+                        <a href="">馒头饼干</a></p>
+                    <p>
+                        <a href="">肉类零食</a>
+                        <a href="">罐头湿粮</a></p>
+                </div>
+            </div>
+            <div class="col-md-12 bor"></div>
+        </div>
+        <!--food products-->
+        <div class="col-md-12 woju-pro">
+            <div class="col-md-3 bg food1">
+                <a href=""><img src="images/food1-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg food2">
+                <a href=""><img src="images/food2-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg food3">
+                <a href=""><img src="images/food3-1.png" alt=""></a>
+            </div>
+            <div class="col-md-3 bg food4">
+                <a href=""><img src="images/food4-1.png" alt=""></a>
+            </div>
+        </div>
+        <!--back to top -->
+        <div class="col-md-12" >
+            <div class="back-to-top">
+                <img src="images/backToTop.jpg" alt="">
+                <a href="#"></a>
+            </div>
+        </div>
+        <!--footer copyright-->
+        <div class="col-md-12 ">
+            <div class="col-md-12 footer">
+            <div class="col-md-4">
+                <img src="images/pet2-logo.jpg " style="background-color:#F5F5F5;height:168px;width:372px;margin-left:-17px;"alt="">
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-4">
+                    <h5><a href="">买家帮助</a></h5>
+                    <ul>
+                        <li><a href="">新手帮助</a></li>
+                        <li><a href="">服务保障</a></li>
+                        <li><a href="">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5><a href="">商家帮助</a></h5>
+                    <ul>
+                        <li><a href="">商家入驻</a></li>
+                        <li><a href="">商家后台</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5><a href="">关于我们</a></h5>
+                    <ul>
+                        <li><a href="">关于宠物</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href=""><img src="images/wechat.png" alt=""></a>
+                            <a href=""><img src="images/sina.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12 copy">
+                    ©2017 宠物集团有限公司 版权所有 京ICP证09002168号
+                </div>
+            </div>
+            <div class="col-md-4 app">
+                 <div style="width:125px;" class="kehu">
+                     <h5>PET商城客户端</h5>
+                     <img src="images/ios.png" alt="">
+                     <img src="images/anzhou.png" alt="">
+                 </div>
+                <div class="erweima">
+                    <img src="images/erweima.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+	<script src="js/index.js"></script>
+</body>
+</html>
